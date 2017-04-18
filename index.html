@@ -1,6 +1,6 @@
 <html>
     <head>
-    <title>Vu Pham --- Phở (쌀국수)</title>
+    <title>Vu Pham --- Phở</title>
     </head>
     <body>
       <header>
@@ -13,6 +13,8 @@
           <li><a href="#directions">Directions</a></li>
         </ul>
 
+        <section>
+        <h1> Phở </h1>
         <img src="http://saigonnoodleslafayette.com/files/2011/09/pho_2000__1231618472_12161.jpg"
      alt="Phở Recipe">
 
@@ -25,12 +27,67 @@
         <h2 id="ingredients">Ingredients</h2>
 
         <ul>
-          <li>Broth</li>
-          <li>Rice Noodles</li>
-          <li>Greens</li>
+          <li>1 L Broth</li>
+          <li>12 oz Rice Noodles</li>
+          <li>1 large onion</li>
           <li>Meats</li>
+          <li>Greens (Opt.)</li>
         </ul>
 
+          <h2 id="directions">Directions</h2>
+      <ol>
+        <li>
+          Boil broth with large onion for 4-5 hours
+        </li>
+        <li>
+          Boil water with rice noodles until desired softness (Usually 7-12 minutes)
+        </li>
+        <li>
+          Add meats to broth 10 minutes before eating
+        </li>
+        <li>
+          After noodles cook, add noodles to bowl
+        </li>
+        <li>
+          Add broth, greens and enjoy!!!!
+        </li>
+      </ol>
+    </section>
+
+              <section id="reviews">
+              <h2>Reviews</h2>
+                <form action="/reviews" method="post">
+                  <label for="name">Name</label>
+                  <input id="name" type="text" name="name">
+
+                  <label for="rating">Rating</label>
+                  1<input type="radio" name="rating" value="1" checked>
+                  2<input type="radio" name="rating" value="2">
+                  3<input type="radio" name="rating" value="3">
+                  4<input type="radio" name="rating" value="4">
+                  5<input type="radio" name="rating" value="5">
+
+                  <label for="expertise">Cooking Expertise</label>
+
+                  <select id="expertise" name="expertise">
+                    <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
+
+                    <option value="Sometimes Cook">Sometimes Cook</option>
+
+                    <option value="Cook Everyday">Cook Everyday</option>
+
+                    <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+
+                    <option value="Professional Chef">Professional Chef</option>
+                  </select>
+
+                  <label>Review
+                    <textarea name="review" cols="30" rows="10"></textarea>
+                  </label>
+
+                  <input type="submit" value="Submit Review">
+                </form>
+            </section>
 
             <footer>
         <p>Original Recipe bs'd by Vu</p>
