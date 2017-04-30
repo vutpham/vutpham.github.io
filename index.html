@@ -1,132 +1,104 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <style>
-      body {
-        background-color: lightblue;
-      }
-
-      h1 {
-        color: white;
-        text-align: center;
-      }
-
-      p {
-        font-family: verdana;
-        font-size: 20px;
-      }
-    </style>
+    <meta charset="utf-8" description="Phở is a Vietnamese noodle soup, consisting of
+      broth, rice noodles, herbs and meat (typically beef or chicken)">
+    <title>Vu Pham's Pho Recipe Page</title>
   </head>
+  <link rel="stylesheet" href="css_custom_reset.css" type="text/css"/>
+  <script src="./external_javascript.js" type="text/javascript"></script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-12345678-9', 'auto');
+    ga('send', 'pageview');
+  </script>
 
 
-    <title>Vu Pham --- Phở</title>
-    <meta charset="utf-8" name="description" content="Phở | Vu's recipe for Pho, A Vietnamese Noodle Soup that consists of Beef or Chicken">
-    </head>
-    <link rel="stylesheet" href="../../assets/css_reset.css" type="text/css"/>
-    <script src="./external_javascript.js" type="text/javascript"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <header>
+  <img src="https://1871.com/wp-content/uploads/2016/09/App-Academy-logo.jpeg" alt="App Academy Logo">
+    <nav>
+      <ul>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#directions">Directions</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      ga('create', 'UA-12345678-9', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-
-
-
-    <body>
-
-      <header>
-
-      <img src="https://1871.com/wp-content/uploads/2016/09/App-Academy-logo.jpeg" alt="App Academy Logo">
-      <nav>
-
-        <ul>
-          <li><a href="#description">Description</a></li>
-          <li><a href="#ingredients">Ingredients</a></li>
-          <li><a href="#directions">Directions</a></li>
-        </ul>
-
-        <section>
-        <h1> Phở </h1>
-        <img src="http://saigonnoodleslafayette.com/files/2011/09/pho_2000__1231618472_12161.jpg"
-     alt="Phở Recipe">
-
-        <h2 id=description>Description</h2>
-        <p>
-          <a href="https://en.wikipedia.org/wiki/Pho">Phở</a> is a Vietnamese noodle soup, consisting of
-          broth, rice noodles, herbs and meat (typically beef or chicken).
-        </p>
-
-        <h2 id="ingredients">Ingredients</h2>
-
-        <ul>
-          <li>1 L Broth</li>
-          <li>12 oz Rice Noodles</li>
-          <li>1 large onion</li>
-          <li>Meats</li>
-          <li>Greens (Opt.)</li>
-        </ul>
-
-          <h2 id="directions">Directions</h2>
-      <ol>
-        <li>
-          Boil broth with large onion for 4-5 hours
-        </li>
-        <li>
-          Boil water with rice noodles until desired softness (Usually 7-12 minutes)
-        </li>
-        <li>
-          Add meats to broth 10 minutes before eating
-        </li>
-        <li>
-          After noodles cook, add noodles to bowl
-        </li>
-        <li>
-          Add broth, greens and enjoy!!!! :)
-        </li>
-      </ol>
+  <body>
+    <h1>Phở</h1>
+    <section>
+      <figure>
+        <img src="http://static.wixstatic.com/media/4eae92_c8380240b92d4c41a5aff93170b09441.jpg" alt="Phở Recipe">
+      </figure>
+      <caption>"This authentic <a href="https://en.wikipedia.org/wiki/Pho">phở</a> isn't quick, but it is delicious. The key is in the broth, which gets simmered for at least 6 hours."</caption>
+      <h2>Description</h2>
+      <p>Phở is a Vietnamese noodle soup, consisting of
+        broth, rice noodles, herbs and meat (typically beef or chicken).</p>
+        <aside>
+          <h2>Ingredients</h2>
+          <ul class="ingredients-list">
+            <li>4 pounds beef soup bones</li>
+            <li>1 onion, unpeeled and cut in half</li>
+            <li>1 tablespoon salt</li>
+            <li>2 pods star anise</li>
+            <li>2 1/2 tablespoons fish sauce</li>
+            <li>4 quarts water</li>
+            <li>1 (8 ounce) package dried rice noodles</li>
+            <li>1 1/2 pounds beef top sirloin, thinly sliced</li>
+            <li>1/2 cup chopped cilantro</li>
+            <li>1 tablespoon chopped green onion</li>
+            <li>1 1/2 cups bean sprouts</li>
+            <li>1 bunch Thai basil</li>
+            <li>1 lime, cut into 4 wedges</li>
+            <li>Fresh ginger</li>
+            <li>Hoison sauce & Sriracha (optional)</li>
+          </ul>
+        </aside>
     </section>
+    <h2>Directions</h2>
+    <ol>
+      <li>Preheat oven to 425 degrees F (220 degrees C)</li>
+      <li>Place beef bones on a baking sheet and roast in the preheated oven until browned, about 1 hour.</li>
+      <li>Place onion on a baking sheet and roast in the preheated oven until blackened and soft, about 45 minutes.</li>
+      <li>Place bones, onion, ginger, salt, star anise, and fish sauce in a large stockpot and cover with 4 quarts of water. Bring to a boil and reduce heat to low. Simmer on low for 6 to 10 hours. Strain the broth into a saucepan and set aside.</li>
+      <li>Place rice noodles in large bowl filled with room temperature water and allow to soak for 1 hour. Bring a large pot of water to a boil and after the noodles have soaked, place them in the boiling water for 1 minute. Bring stock to a simmer.</li>
+      <li>Divide noodles among 4 serving bowls; top with sirloin, cilantro, and green onion. Pour hot broth over the top. Stir and let sit until the beef is partially cooked and no longer pink, 1 to 2 minutes. Serve with bean sprouts, Thai basil, lime wedges, hoisin sauce, and chile-garlic sauce on the side.</li>
+    </ol>
+  </body>
 
-              <section id="reviews">
-              <h2>Reviews</h2>
-                <form action="/reviews" method="post">
-                  <label for="name">Name</label>
-                  <input id="name" type="text" name="name">
+  <section id="reviews">
+  <h2>Reviews</h2>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
 
-                  <label for="rating">Rating</label>
-                  1<input type="radio" name="rating" value="1" checked>
-                  2<input type="radio" name="rating" value="2">
-                  3<input type="radio" name="rating" value="3">
-                  4<input type="radio" name="rating" value="4">
-                  5<input type="radio" name="rating" value="5">
+      <label for="rating">Rating</label>
+      1<input type="radio" name="rating" value="1" checked>
+      2<input type="radio" name="rating" value="2">
+      3<input type="radio" name="rating" value="3">
+      4<input type="radio" name="rating" value="4">
+      5<input type="radio" name="rating" value="5">
 
-                  <label for="expertise">Cooking Expertise</label>
-
-                  <select id="expertise" name="expertise">
-                    <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
-
-                    <option value="Sometimes Cook">Sometimes Cook</option>
-
-                    <option value="Cook Everyday">Cook Everyday</option>
-
-                    <option value="Cooking is a Hobby">Cooking is a Hobby</option>
-
-                    <option value="Professional Chef">Professional Chef</option>
-                  </select>
-
-                  <label>Review
-                    <textarea id="review" name="review" cols="10" rows="3"></textarea>
-                  </label>
-
-                  <input type="submit" value="Submit Review">
-                </form>
-            </section>
-
-            <footer>
-        <p>Original Recipe by Vu</p>
-      </footer>
-    </body>
+      <label for="expertise">Cooking Expertise</label>
+      <select id="expertise" name="expertise">
+        <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
+        <option value="Sometimes Cook">Sometimes Cook</option>
+        <option value="Cook Everyday">Cook Everyday</option>
+        <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+        <option value="Professional Chef">Professional Chef</option>
+      </select>
+      <label>Review
+        <textarea id="review" name="review" cols="20" rows="3"></textarea>
+      </label>
+      <input type="submit" value="Submit Review">
+    </form>
+  </section>
+  <footer>
+    Original Recipe by <a href="http://allrecipes.com/recipe/228443/authentic-pho/">allrecipes</a>
+  </footer>
 </html>
