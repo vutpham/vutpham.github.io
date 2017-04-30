@@ -1,20 +1,35 @@
 header > img {
   width: 100px;
+  display: block;
+  background: white;
+}
+
+header {
+  background: transparent;
+}
+
+header > li {
+  display: block;
+  background: yellow;
 }
 
 h1 {
   color: red;
   font-size: 38px;
+  background: blanchedalmond;
+  border-bottom: 1px solid black;
 }
 
 h2 {
   color: red;
   font-size: 32px;
+  border-bottom: 1px solid black;
+  background: beige;
 }
 
 body {
   line-height: 1.5;
-  font-family: papyrus;
+  font-family: arial, sans-serif;
   background-color: antiquewhite;
 }
 
@@ -25,8 +40,39 @@ ol {
 
 .ingredients-list {
   list-style: square inside;
+  margin: 15px 0px;
+  background: azure;
 }
 
-section > reviews {
-  background-color: green;
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(https://shadygrove.umd.edu/sites/default/files/styles/media_thumb/public/star.png);
+    vertical-align: bottom;
+}
+
+input[type="radio"]:checked {
+  background-position: 30px 30px;
+}
+
+
+input:last-child {
+    background: gold;
+}
+
+input:last-child:hover {
+    -webkit-filter: brightness(90%);
+}
+
+ol li:nth-of-type(2n) {
+  background-color: whitesmoke;
+}
+
+label {
+  display: block;
+}
+
+h2 + .user_review {
+    border-top: 1px solid black;
 }
