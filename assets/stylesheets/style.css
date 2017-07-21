@@ -240,6 +240,11 @@ a.lighten:hover img {
   #blurb {
     float: right;
   }
+
+  #blurb img {
+    width: 300px;
+    border-radius: 100%;
+  }
 }
 
 /* ////////////////////////////////////////////////////////////
