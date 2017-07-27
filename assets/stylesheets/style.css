@@ -47,8 +47,9 @@ section.module.parallax h1 {
 }
 
 section.module.parallax-1 {
-  background-image: url("../../images/backgrounds/hero6.jpg");
+  background-image: url("http://wallpapercave.com/wp/yauuc9D.jpg");
   height:100vh;
+  color: white;
 }
 
 section.module.parallax-2 {
