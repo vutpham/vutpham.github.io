@@ -110,12 +110,13 @@ main {
 .nav-bar {
   padding: 10px 0;
   background-color: transparent;
-  text-align: left;
+  text-align: right;
   height: 30px;
+
 }
 
 .nav-link {
-  color: #999999;
+  color: white;
   padding: 10px;
 }
 
@@ -156,19 +157,6 @@ footer nav a {
   color: #fff;
 }
 
-footer .copyright {
-  text-align: center;
-}
-
-footer .copyright small {
-  color: #fff;
-  font-size: 12px;
-}
-
-footer .copyright a {
-  color: #828282;
-}
-
 @media all and (min-width: 600px) {
   footer aside {
     margin-bottom: 0;
@@ -201,7 +189,7 @@ a {
 }
 
 a:hover {
-  color: #818181;
+  color: #3f6cb5;
   text-decoration: none;
   text-decoration-line: none;
 }
